@@ -1,0 +1,22 @@
+@import 'nav.css';
+@import 'favorite.css';
+@import 'daily.css';
+@import 'button.css';
+
+/* 
+color palette:
+#105bd8 - nasa blue
+#dd361c - nasa red
+#061f4a - background dark grey
+#ffffff - white
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
