@@ -1,3 +1,10 @@
 import PhotoListComponent from "./Photos/Photolist.js";
+import { getPhotos, usePhotos } from "./Photos/Photodataprovider.js";
 
-PhotoListComponent()
+// PhotoListComponent()
+
+getPhotos().then(
+    PhotoListComponent
+)
+
+usePhotos

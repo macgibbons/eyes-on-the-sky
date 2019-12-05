@@ -9,12 +9,14 @@ const PhotoListComponent = () => {
 
     singlePhotoCard.innerHTML += `
         ${ 
-               photos.photos.map(photo => {
+               photos.map(photo => {
                    return photoCardComponent(photo)}).join("")
         }
     `
 }
 
 export default PhotoListComponent
+
+
 
 
