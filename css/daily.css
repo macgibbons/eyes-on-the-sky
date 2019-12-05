@@ -1,3 +1,27 @@
 .main__daily {
-    border: 1px solid #061f4a;
+    box-shadow: 0px 0px 36px -5px rgba(0,0,0,0.64);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.photo__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photo__card {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.64);
+    margin: 20px;
+    flex-basis: 10%;
+    padding: 5px;
+}
+
+.photo__card:hover {
+    box-shadow: 0px 0px 20px 0px #105bd8;
+}
+
+.photo {
+    max-width: 300px;
 }
